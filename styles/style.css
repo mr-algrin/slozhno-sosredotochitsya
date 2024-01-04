@@ -9,7 +9,7 @@
   background-color: var(--bg-color);
   background-image: url(../images/cover-image.png);
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center top;
   background-attachment: fixed;
 }
 
@@ -305,8 +305,8 @@
   }
 }
 
-@media (768px <= width < 1024px) {
-}
+/* @media (768px <= width < 1024px) {
+} */
 
 /* Стили тошько для десктопа */
 @media (width >= 1024px) {
