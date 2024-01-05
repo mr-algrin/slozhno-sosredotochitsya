@@ -170,9 +170,9 @@
 
 .content__section-block__description {
   color: var(--secondary-text-color);
-  /* word-spacing: 5px; */
   font-size: 18px;
   line-height: 23.4px;
+  letter-spacing: 0.03rem;
 }
 
 .content__section-block__link {
