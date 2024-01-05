@@ -145,6 +145,8 @@
 .content__section-title {
   margin-bottom: 20px;
   color: var(--primary-text-color);
+  font-size: 18px;
+  line-height: 23.4px;
 }
 
 .content__section-container {
