@@ -23,7 +23,7 @@
 
 .title-decor {
   height: fit-content;
-  color: var(--bg-color);
+  color: var(--accent-text-color);
   font-weight: bold;
   font-size: 18px;
   line-height: 23.4px;

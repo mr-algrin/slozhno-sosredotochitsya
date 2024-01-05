@@ -5,10 +5,12 @@
 
 :root {
   --bg-color: #000028;
-  --accent-color: #FF0070;
-  --main-color: #DB00FF;
-  --primary-text-color: #FF0070;
-  --secondary-text-color: #F1B2CE;
-  --text-font: 'IBM Plex Mono';
+  --accent-color: #ff0070;
+  --accent-text-color: #000028;
+  --main-color: #db00ff;
+  --primary-text-color: #ff0070;
+  --secondary-text-color: #f1b2ce;
+
+  --text-font: "IBM Plex Mono";
   --inner-spacing: 10px;
 }
