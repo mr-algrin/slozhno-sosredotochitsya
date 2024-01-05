@@ -53,3 +53,7 @@
 .theme_dark .header__theme-menu-button:hover {
   outline: 1px solid rgb(255 0 112 / 0.4);
 }
+
+.theme_dark .header__decoration {
+  display: flex;
+}

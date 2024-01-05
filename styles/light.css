@@ -49,7 +49,7 @@
      и включённой тёмной теме будет пропадать REC
   */
   .header__decoration {
-    visibility: hidden;
+    display: none;
   }
 
   .header__theme-menu-button:hover {
@@ -58,7 +58,7 @@
 }
 
 .theme_light .header__decoration {
-  visibility: hidden;
+  display: none;
 }
 
 .theme_light .header__theme-menu-button:hover {
