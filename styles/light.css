@@ -48,7 +48,7 @@
   /* Если убрать класс .theme_auto, то при выставленной в devtools prefers-color-scheme=light
      и включённой тёмной теме будет пропадать REC
   */
-  .theme_auto .header__decoration {
+  .header__decoration {
     visibility: hidden;
   }
 

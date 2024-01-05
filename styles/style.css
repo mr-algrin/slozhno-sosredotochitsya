@@ -33,7 +33,7 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 1fr auto 1fr;
   height: 100vh;
   min-height: 668px;
   padding: var(--inner-spacing);
@@ -231,10 +231,6 @@
   :root {
     --inner-spacing: 20px;
   }
-
-  /* .page {
-    gap: 60px;
-  } */
 
   .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
