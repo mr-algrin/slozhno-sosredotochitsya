@@ -263,7 +263,7 @@
 
   .row-aligned {
     grid-template-columns: repeat(3, 1fr);
-    /* gap: 20px; */
+    column-gap: 20px;
   }
 
   .row-aligned > .content__section-title {
