@@ -45,9 +45,6 @@
     background-image: url(../images/cover-image-light.png);
   }
 
-  /* Если убрать класс .theme_auto, то при выставленной в devtools prefers-color-scheme=light
-     и включённой тёмной теме будет пропадать REC
-  */
   .header__decoration {
     display: none;
   }
