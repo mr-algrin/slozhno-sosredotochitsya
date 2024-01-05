@@ -164,9 +164,9 @@
   gap: 10px;
 }
 
-.content__section-block__title {
-  max-height: 23px;
-}
+/* .content__section-block__title {
+  height: 23px;
+} */
 
 .block__title-decor {
   font-weight: normal;
@@ -176,7 +176,7 @@
   color: var(--secondary-text-color);
   font-size: 18px;
   line-height: 23.4px;
-  letter-spacing: 0.02rem;
+  /* letter-spacing: 0.02rem; */
 }
 
 .content__section-block__link {
