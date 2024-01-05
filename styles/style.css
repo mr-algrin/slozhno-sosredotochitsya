@@ -5,11 +5,12 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  font-family: var(--text-font, Arial, Helvetica, sans-serif);
+  font-family: var(--text-font, monospace);
   background-color: var(--bg-color);
   background-image: url(../images/cover-image.png);
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -35,6 +36,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
   height: 100vh;
+  min-height: 668px;
   padding: var(--inner-spacing);
 }
 
@@ -48,6 +50,7 @@
   color: var(--primary-text-color);
   font-size: 18px;
   line-height: 25px;
+  text-transform: uppercase;
 }
 
 .header__decoration::after {
@@ -208,6 +211,7 @@
   position: relative;
   display: flex;
   height: 100vh;
+  min-height: 668px;
 }
 
 .footer__title {
